@@ -1,0 +1,26 @@
+<section>
+  <form [formGroup]="produtosForm" (ngSubmit)="submitForm(produtosForm)">
+    <fieldset>
+      <legend *ngIf="">Cadastro produto</legend>
+      <legend *ngIf="">Editar produto</legend>
+        <label for="fnome">Nome:
+          <input type="text" id="fnome" formControlName="nome">
+        </label>
+        <label for="fpreco">Preco:
+          <input type="text" id="fpreco" formControlName="preco">
+        </label>
+        <label for="fcategoria">Categoria:
+          <input type="text" id="fcategoria" formControlName="categoria">
+        </label>
+        <label for="fdesc">Descrição:
+          <textarea id="fdesc" formControlName="descricao"></textarea>
+        </label>
+
+        <div class="btn">
+          <button>Criar/Editar</button> <a [routerLink]="['/categorias']">Voltar</a>
+        </div>
+
+    </fieldset>
+  </form>
+</section>
+

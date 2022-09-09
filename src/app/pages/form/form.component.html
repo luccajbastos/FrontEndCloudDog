@@ -1,0 +1,20 @@
+<section>
+  <form [formGroup]="categoriaForm" (ngSubmit)="submitForm(categoriaForm)">
+    <fieldset>
+      <legend *ngIf="">Cadastro Categoria</legend>
+      <legend *ngIf="">Editar Categoria</legend>
+        <label for="fnome">Nome:
+          <input type="text" id="fnome" formControlName="nome">
+        </label>
+        <label for="fnome">Descrição:
+          <textarea id="fnome" formControlName="descricao"></textarea>
+        </label>
+
+        <div class="btn">
+          <button>Criar/Editar</button> <a [routerLink]="['/categorias']">Voltar</a>
+        </div>
+
+    </fieldset>
+  </form>
+</section>
+

@@ -1,0 +1,30 @@
+{
+  "categorias": [
+    {
+      "id": 0,
+      "nome": "Categoria 01",
+      "descricao": "Categoria 01"
+    },
+    {
+      "id": 1,
+      "nome": "Categoria 02",
+      "descricao": "Categoria 02"
+    }
+  ],
+  "produtos": [
+    {
+      "id": 0,
+      "nome": "Produto 1",
+      "preco": "10,00",
+      "categoria": "1",
+      "descricao": "Descrição produto 1"
+    },
+    {
+      "id": 1,
+      "nome": "Produto 2 ",
+      "preco": "100",
+      "categoria": "2",
+      "descricao": "Descrição produto 2"
+    }
+  ]
+}

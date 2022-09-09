@@ -1,0 +1,38 @@
+.categorias {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  margin: 20px 30px;
+}
+
+.items {
+  margin: auto 30px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info {
+  text-align: center;
+}
+ul {
+  padding: 25px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+li {
+  text-align: center;
+  padding: 5px;
+}
+
+button {
+  width: 150px;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: white;
+}

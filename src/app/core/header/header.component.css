@@ -1,0 +1,10 @@
+header {
+  border-bottom: 1px solid black;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+  padding: 25px;
+}
+
+.title {
+  text-align: center;
+  font-size: 15px;
+}
